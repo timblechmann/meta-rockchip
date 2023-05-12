@@ -8,6 +8,6 @@ LINUXLIBCVERSION ?= "5.10-custom%"
 require conf/machine/include/rockchip-arm64-common.inc
 
 MALI_GPU := "bifrost-g52"
-MALI_VERSION := "g2p0"
+MALI_VERSION ?= "g2p0"
 
 RK_ISP_VERSION := "2.1"

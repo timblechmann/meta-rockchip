@@ -15,7 +15,7 @@ KERNEL_IMAGETYPE ?= "Image"
 KBUILD_DEFCONFIG ?= "rockchip_linux_defconfig"
 MACHINEOVERRIDES .= ":rockchip"
 
-PREFERRED_PROVIDER_virtual/bootloader ?= "u-boot"
+PREFERRED_PROVIDER_virtual/bootloader ?= "u-boot-rockchip"
 
 PREFERRED_PROVIDER_virtual/kernel ?= "linux-rockchip"
 
@@ -95,7 +95,7 @@ do_post_rootfs() {
 	for dir in vendor system;do
 		firmware_dir=${IMAGE_ROOTFS}/${dir}/etc/
 		mkdir -p ${firmware_dir}
-		ln -sf /lib/firmware ${firmware_dir}
+		ln -rsf ${IMAGE_ROOTFS}/lib/firmware ${firmware_dir}
 	done
 
 	for overlay in ${RK_OVERLAY_DIRS};do

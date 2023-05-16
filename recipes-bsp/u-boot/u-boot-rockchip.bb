@@ -17,10 +17,10 @@ PV = "2017.09"
 
 LIC_FILES_CHKSUM = "file://Licenses/README;md5=a2c678cfd4a4d97135585cad908541c6"
 
-SRCREV = "1605e9e8fb52503209543a16b5d8c6908d1064f7"
+SRCREV = "a2a9f1df8fa56c38c776dec94915cc80fa66f9c8"
 SRCREV_rkbin = "104659686b734ab041ef958c0abece1a250f48a4"
 SRC_URI = " \
-	git://github.com/JeffyCN/mirrors.git;protocol=https;branch=u-boot; \
+	git://github.com/radxa/u-boot.git;protocol=https;branch=next-dev; \
 	git://github.com/JeffyCN/mirrors.git;protocol=https;branch=rkbin;name=rkbin;destsuffix=rkbin; \
 "
 

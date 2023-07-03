@@ -23,6 +23,9 @@ SRC_URI = " \
 	git://github.com/JeffyCN/mirrors.git;protocol=https;branch=u-boot; \
 	git://github.com/JeffyCN/mirrors.git;protocol=https;branch=rkbin;name=rkbin;destsuffix=rkbin; \
 	file://0001-lib-avb-fix-build-error.patch \
+	file://0001-common-fix-build-error.patch \
+	file://0001-common-rbsb-fix-build-error.patch \
+	file://0001-evb-rk3399_defconfig-disable-display.patch \
 "
 
 SRCREV_FORMAT = "default_rkbin"

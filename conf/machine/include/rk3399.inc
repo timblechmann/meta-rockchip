@@ -1,9 +1,10 @@
 # Copyright (c) 2019, Fuzhou Rockchip Electronics Co., Ltd
+# Copyright (c) 2023, Radxa Ltd
 # Released under the MIT license (see COPYING.MIT for the terms)
 
 SOC_FAMILY ?= "rk3399"
-PREFERRED_VERSION_linux-rockchip ?= "4.19%"
-LINUXLIBCVERSION ?= "4.19-custom%"
+PREFERRED_VERSION_linux-rockchip ?= "5.10%"
+LINUXLIBCVERSION ?= "5.10-custom%"
 
 require conf/machine/include/rockchip-arm64-common.inc
 

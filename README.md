@@ -134,6 +134,8 @@ The following undergo regular basic testing with their respective MACHINE types.
 
 * rk3288 evb board
 
+* rk3399 rock 4 se board
+
 * rk3399 sapphire excavator board
 
 * rk3399pro evb board

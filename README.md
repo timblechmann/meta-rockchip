@@ -140,6 +140,8 @@ The following undergo regular basic testing with their respective MACHINE types.
 
 * rk3566 radxa cm3 io board
 
+* rk3568 rock 3a board
+
 * rk3588 rock 5b board
 
 * rk3588s radxa nx5 io board

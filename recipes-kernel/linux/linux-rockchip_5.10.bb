@@ -6,7 +6,7 @@ require linux-rockchip.inc
 
 inherit local-git
 
-SRCREV = "d0dea0760f435bfe620b1ded58f69635050eb01e"
+SRCREV = "81be43eaa6a3aba95da50b0d1210893a7c619bda"
 SRC_URI = " \
 	git://github.com/radxa/kernel.git;protocol=https;branch=linux-5.10-gen-rkr4.1; \
 	file://${THISDIR}/files/cgroups.cfg \

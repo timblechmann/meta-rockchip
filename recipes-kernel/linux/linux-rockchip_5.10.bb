@@ -6,9 +6,9 @@ require linux-rockchip.inc
 
 inherit local-git
 
-SRCREV = "81be43eaa6a3aba95da50b0d1210893a7c619bda"
+SRCREV = "d0d8c990db2c85c7aa782018b8531caa0afad835"
 SRC_URI = " \
-	git://github.com/radxa/kernel.git;protocol=https;branch=linux-5.10-gen-rkr4.1; \
+	git://github.com/radxa/kernel.git;protocol=https;branch=linux-5.10-gen-rkr3.4; \
 	file://${THISDIR}/files/cgroups.cfg \
 	file://${THISDIR}/files/wifi.cfg \
 "

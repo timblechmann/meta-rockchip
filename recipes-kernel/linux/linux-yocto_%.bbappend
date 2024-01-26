@@ -21,6 +21,7 @@ COMPATIBLE_MACHINE:roc-rk3308-cc = "roc-rk3308-cc"
 COMPATIBLE_MACHINE:rock-3a = "rock-3a"
 COMPATIBLE_MACHINE:rock-4c-plus = "rock-4c-plus"
 COMPATIBLE_MACHINE:radxa-cm3-io = "radxa-cm3-io"
+COMPATIBLE_MACHINE:radxa-e25 = "radxa-e25"
 
 SRC_URI:append = " file://rockchip-kmeta;type=kmeta;name=rockchip-kmeta;destsuffix=rockchip-kmeta"
 SRC_URI:append:nanopi-r4s = " file://nanopi-r4s.scc"
